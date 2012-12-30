@@ -11,12 +11,12 @@ namespace Structs
 		public int Y;
 	}
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
+    	class Program
+    	{
+       	 	static void Main(string[] args)
+        	{
 			Simple s1, s2; // No constructor calls
-///			Console.WriteLine("{0}, {1}", s1.X, s1.Y); // Compile error
+			Console.WriteLine("{0}, {1}", s1.X, s1.Y); // Compile error
 
 			s2.X = 10;
 			s2.Y = 100;
